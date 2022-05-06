@@ -67,3 +67,51 @@ console.log(onlyFirstCap(str));
 
 // Output -> Aegd efgh ijkl
 ```
+
+
+## debounce
+```
+// import module
+import debounce from 'updev/debounce';
+
+// debounce function
+debounce(()=>{
+  // callback
+},time);
+
+Ex - 
+debounce(()=>{
+  // callback
+},1000);
+```
+
+## throttle
+```
+// import module
+import throttle from 'updev/throttle';
+
+// throttle function
+throttle(()=>{
+  // callback
+},1000);
+
+Ex -
+throttle(()=>{
+ // callback
+},1000);
+```
+
+## delay
+```
+// import module
+import delay from 'updev/delay'
+
+delay(()=>{
+  // callback
+},time);
+
+Ex -
+delay(()=>{
+console.log("Hello")
+},1500);
+```
