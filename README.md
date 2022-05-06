@@ -68,6 +68,20 @@ console.log(onlyFirstCap(str));
 // Output -> Aegd efgh ijkl
 ```
 
+## removeHTMLTags
+```
+// import module
+import removeHTMLTags from 'updev/removeHTMLTags'
+
+// example tag
+let tags = "<h1> Hello World! </h1>";
+
+// printing tags
+console.log(removeHTMLTags(tags));
+
+// Output -> Hello World! 
+```
+
 
 ## debounce
 ```
