@@ -7,7 +7,7 @@ import PascalCase from 'devstorm/PascalCase';
 let str = "abcd efgh";
 
 // printing str in PascalCase
-console.log(pascal(str));
+console.log(PascalCase(str));
 
 // Output -> AbcdEfgh
 ```
@@ -21,7 +21,7 @@ import camelCase from 'devstorm/camelCase';
 let str = "abcd efgh";
 
 // printing str in camelCase
-console.log(camel(str));
+console.log(camelCase(str));
 
 // Output -> abcdEfgh
 ```
@@ -29,13 +29,13 @@ console.log(camel(str));
 ## snake_case
 ```js
 // import module
-import snake from 'devstorm/snake_case';
+import snake_case from 'devstorm/snake_case';
 
 // example string
 let str = "aecd efgh";
 
 // printing str in snake_case
-console.log(snake(str));
+console.log(snake_case(str));
 
 // Output -> aecd_efgh
 ```
