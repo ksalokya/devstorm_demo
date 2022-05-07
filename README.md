@@ -1,7 +1,7 @@
 ## PascalCase
 ```js
 // import module
-import PascalCase from 'updev/PascalCase';
+import PascalCase from 'devstorm/PascalCase';
 
 // example string
 let str = "abcd efgh";
@@ -15,7 +15,7 @@ console.log(pascal(str));
 ## camelCase
 ```js
 // import module
-import camelCase from 'updev/camelCase';
+import camelCase from 'devstorm/camelCase';
 
 // example string
 let str = "abcd efgh";
@@ -29,7 +29,7 @@ console.log(camel(str));
 ## snake_case
 ```js
 // import module
-import snake from 'updev/snake_case';
+import snake from 'devstorm/snake_case';
 
 // example string
 let str = "aecd efgh";
@@ -43,7 +43,7 @@ console.log(snake(str));
 ## firstCap
 ```js
 // import module
-import firstCap from 'updev/firstCap'
+import firstCap from 'devstorm/firstCap'
 
 // example string
 let str = "aeGd efgh ijkL";
@@ -57,7 +57,7 @@ console.log(firstCap(str));
 ## onlyFirstCap
 ```js
 // import module
-import onlyFirstCap from 'updev/onlyFirstCap'
+import onlyFirstCap from 'devstorm/onlyFirstCap'
 
 // example string
 let str = "aeGd efgh ijkL";
@@ -71,7 +71,7 @@ console.log(onlyFirstCap(str));
 ## removeHTMLTags
 ```js
 // import module
-import removeHTMLTags from 'updev/removeHTMLTags'
+import removeHTMLTags from 'devstorm/removeHTMLTags'
 
 // example tag
 let tags = "<h1> Hello World! </h1>";
@@ -85,7 +85,7 @@ console.log(removeHTMLTags(tags));
 ## debounce - works on DOM.
 ```js
 // import module
-import debounce from 'updev/debounce';
+import debounce from 'devstorm/debounce';
 
 // debounce function
 debounce(()=>{
@@ -101,7 +101,7 @@ debounce(()=>{
 ## throttle - works on DOM.
 ```js
 // import module
-import throttle from 'updev/throttle';
+import throttle from 'devstorm/throttle';
 
 // throttle function
 throttle(()=>{
@@ -117,7 +117,7 @@ throttle(()=>{
 ## delay
 ```js
 // import module
-import delay from 'updev/delay';
+import delay from 'devstorm/delay';
 
 // example function
 function example() {
@@ -133,7 +133,7 @@ delay(example, 1000)
 ## date_dmy
 ```js
 // import module
-import dmy from 'updev/date_dmy';
+import dmy from 'devstorm/date_dmy';
 
 // convert today's date to dd-mm-yyyy format
 console.log(dmy())
@@ -145,7 +145,7 @@ console.log(dmy())
 ## date_mdy
 ```js
 // import module
-import mdy from 'updev/date_mdy';
+import mdy from 'devstorm/date_mdy';
 
 // convert today's date to dd-mm-yyyy format
 console.log(mdy())
@@ -157,7 +157,7 @@ console.log(mdy())
 ## date_ymd
 ```js
 // import module
-import ymd from 'updev/date_ymd';
+import ymd from 'devstorm/date_ymd';
 
 // convert today's date to dd-mm-yyyy format
 console.log(ymd())
@@ -169,7 +169,7 @@ console.log(ymd())
 ## isLeap
 ```js
 // import module
-import isLeap from 'updev/isLeap';
+import isLeap from 'devstorm/isLeap';
 
 // calling isLeap Fn
 console.log(isLeap(2020));
@@ -180,7 +180,7 @@ console.log(isLeap(2020));
 ## formate_date_util
 ```js
 // import module
-import util from 'updev/format_date_util';
+import util from 'devstorm/format_date_util';
 
 // return day, date and year
 console.log(util(new Date()))
@@ -192,7 +192,7 @@ console.log(util(new Date()))
 ## randomNumberInRange
 ```js
 // import module
-import random from 'updev/randomNumberInRange';
+import random from 'devstorm/randomNumberInRange';
 
 // generate random number in range 1 - 100
 console.log(random(1,100));
@@ -203,7 +203,7 @@ console.log(random(1,100));
 ## triggerFnPerSec
 ```js
 // import module
-import triggerFnPerSec from 'updev/triggerFnPerSecond';
+import triggerFnPerSec from 'devstorm/triggerFnPerSecond';
 
 // example function
 function example() {
@@ -220,7 +220,7 @@ triggerFnPerSec(example)
 ## triggerFnPerInterval
 ```js
 // import module
-import triggerFnPerInterval from 'updev/triggerFnPerInterval';
+import triggerFnPerInterval from 'devstorm/triggerFnPerInterval';
 
 // example function
 function example() {
