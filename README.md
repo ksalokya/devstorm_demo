@@ -1,5 +1,5 @@
 ## PascalCase
-```
+```js
 // import module
 import PascalCase from 'updev/PascalCase';
 
@@ -13,7 +13,7 @@ console.log(pascal(str));
 ```
 
 ## camelCase
-```
+```js
 // import module
 import camelCase from 'updev/camelCase';
 
@@ -27,7 +27,7 @@ console.log(camel(str));
 ```
 
 ## snake_case
-```
+```js
 // import module
 import snake from 'updev/snake_case';
 
@@ -41,7 +41,7 @@ console.log(snake(str));
 ```
 
 ## firstCap
-```
+```js
 // import module
 import firstCap from 'updev/firstCap'
 
@@ -55,7 +55,7 @@ console.log(firstCap(str));
 ```
 
 ## onlyFirstCap
-```
+```js
 // import module
 import onlyFirstCap from 'updev/onlyFirstCap'
 
@@ -69,7 +69,7 @@ console.log(onlyFirstCap(str));
 ```
 
 ## removeHTMLTags
-```
+```js
 // import module
 import removeHTMLTags from 'updev/removeHTMLTags'
 
@@ -84,7 +84,7 @@ console.log(removeHTMLTags(tags));
 
 
 ## debounce
-```
+```js
 // import module
 import debounce from 'updev/debounce';
 
@@ -100,7 +100,7 @@ debounce(()=>{
 ```
 
 ## throttle
-```
+```js
 // import module
 import throttle from 'updev/throttle';
 
@@ -116,7 +116,7 @@ throttle(()=>{
 ```
 
 ## delay
-```
+```js
 // import module
 import delay from 'updev/delay'
 
