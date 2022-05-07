@@ -82,8 +82,7 @@ console.log(removeHTMLTags(tags));
 // Output -> Hello World! 
 ```
 
-
-## debounce
+## debounce - works on DOM.
 ```js
 // import module
 import debounce from 'updev/debounce';
@@ -99,7 +98,7 @@ debounce(()=>{
 },1000);
 ```
 
-## throttle
+## throttle - works on DOM.
 ```js
 // import module
 import throttle from 'updev/throttle';
@@ -118,14 +117,119 @@ throttle(()=>{
 ## delay
 ```js
 // import module
-import delay from 'updev/delay'
+import delay from 'updev/delay';
 
-delay(()=>{
-  // callback
-},time);
+// example function
+function example() {
+    console.log("hello world!");
+}
 
-Ex -
-delay(()=>{
-console.log("Hello")
-},1500);
+// call delay function
+delay(example, 1000)
+
+// Output -> hello world! (will be printed after 1 sec)
+```
+
+## date_dmy
+```js
+// import module
+import dmy from 'updev/date_dmy';
+
+// convert today's date to dd-mm-yyyy format
+console.log(dmy())
+
+// Documented on - 7th May, 2022
+// Output -> 07-05-2022
+```
+
+## date_mdy
+```js
+// import module
+import mdy from 'updev/date_mdy';
+
+// convert today's date to dd-mm-yyyy format
+console.log(mdy())
+
+// Documented on - 7th May, 2022
+// Output -> 05-07-2022
+```
+
+## date_ymd
+```js
+// import module
+import ymd from 'updev/date_ymd';
+
+// convert today's date to dd-mm-yyyy format
+console.log(ymd())
+
+// Documented on - 7th May, 2022
+// Output -> 2022-05-07
+```
+
+## isLeap
+```js
+// import module
+import isLeap from 'updev/isLeap';
+
+// calling isLeap Fn
+console.log(isLeap(2020));
+
+// Output -> true
+```
+
+## formate_date_util
+```js
+// import module
+import util from 'updev/format_date_util';
+
+// return day, date and year
+console.log(util(new Date()))
+
+// Documented on - 7th May, 2022
+// Output -> { day: '07', month: '05', year: 2022 }
+```
+
+## randomNumberInRange
+```js
+// import module
+import random from 'updev/randomNumberInRange';
+
+// generate random number in range 1 - 100
+console.log(random(1,100));
+
+// Output -> 28 (may vary)
+```
+
+## triggerFnPerSec
+```js
+// import module
+import triggerFnPerSec from 'updev/triggerFnPerSecond';
+
+// example function
+function example() {
+    console.log("hello world!");
+}
+
+// call trigger function
+triggerFnPerSec(example)
+
+// Output -> hello world
+// will be keep printed after 1 sec
+```
+
+## triggerFnPerInterval
+```js
+// import module
+import triggerFnPerInterval from 'updev/triggerFnPerInterval';
+
+// example function
+function example() {
+    console.log("hello world!");
+}
+
+// call trigger function
+triggerFnPerInterval(example, 1500)
+
+// Output -> hello world
+// will be keep printed after 1.5 sec
 ```
